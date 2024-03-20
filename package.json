@@ -1,7 +1,7 @@
 {
-  "name": "breakout-game",
+  "name": "react-brickbreaker",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://rodionchachura.github.io/breakout-game",
   "dependencies": {
     "react": "^16.8.6",
@@ -9,11 +9,16 @@
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-react": "^7.24.1",
     "gh-pages": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:lib": "babel src --out-dir lib",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -33,5 +38,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Forked from https://github.com/radzionc/breakout-game\r >",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirArchy/breakout-game.git"
+  },
+  "keywords": [
+    "react",
+    "brickbreaker",
+    "breakout",
+    "brick",
+    "breaker"
+  ],
+  "author": "Sirarchy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirArchy/breakout-game/issues"
   }
 }
