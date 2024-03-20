@@ -1,5 +1,7 @@
 # Breakout Game
 Forked from https://github.com/radzionc/breakout-game
+
+Made this so you can easily import this awesome game Rodion Chachura made using only npm.
 >
 
 ![all text](https://cdn-images-1.medium.com/max/800/1*uZnZD8xTmf0fxKqBpMhtfg.gif)
