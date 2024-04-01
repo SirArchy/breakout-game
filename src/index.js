@@ -1,16 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
-import * as serviceWorker from './serviceWorker'
-import Page from './components/page';
-const BrickBreaker = Page;
+// index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import BrickBreaker from './BrickBreaker';
+import * as serviceWorker from './serviceWorker';
 
+ReactDOM.render(<BrickBreaker />, document.getElementById('root'));
 
-ReactDOM.render(<BrickBreaker />, document.getElementById('root'))
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister()
-
-export default BrickBreaker;
+serviceWorker.unregister();
